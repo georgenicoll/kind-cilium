@@ -3,4 +3,4 @@
 set -e
 . common.sh
 
-curl -LO https://raw.githubusercontent.com/cilium/cilium/1.12.3/Documentation/gettingstarted/kind-config.yaml
+curl -LO https://raw.githubusercontent.com/cilium/cilium/${CILIUM_VERSION}/Documentation/installation/kind-config.yaml
