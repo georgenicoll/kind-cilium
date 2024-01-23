@@ -13,4 +13,6 @@ rm cilium-linux-${CLI_ARCH}.tar.gz{,.sha256sum}
 
 banner "Checking installation (don't worry about errors right now)"
 
+cilium version
+
 cilium status

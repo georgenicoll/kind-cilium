@@ -19,7 +19,7 @@ EOF
 
 banner "Installing Cillium"
 
-cilium install --helm-values metrics-values.yaml
+cilium install --version ${CILIUM_VERSION} --helm-values metrics-values.yaml
 
 banner "Waiting for Cillium to come up (this may take a few minutes)"
 

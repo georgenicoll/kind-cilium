@@ -6,3 +6,4 @@ banner() {
 }
 
 export -f banner
+export CILIUM_VERSION="1.14.6"

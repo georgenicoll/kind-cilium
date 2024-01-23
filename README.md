@@ -35,8 +35,7 @@ or follow the numbers:
 ```bash
 ./01.get-cluster-config.sh
 ./02.create-cluster.sh
-./03.install-cilium-cli.sh
-./04.install-cilium.sh
+...
 ```
 
 ## Get rid
